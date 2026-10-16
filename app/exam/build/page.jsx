@@ -104,7 +104,7 @@ export default function BuildPage() {
         </div>
 
         <div className="card">
-          <h3>Scan questions (free, runs on-device)</h3>
+          <h3>Scan questions</h3>
           <p className="muted-sm">Pick multiple photos and/or PDFs of a question bank — numbered questions, lettered choices, and an "Answer: C" style line parse best.</p>
           <label className="btn-primary" style={{ display: 'inline-block', cursor: 'pointer' }}>
             {scanning ? 'Reading…' : 'Select Images / PDFs'}
@@ -170,4 +170,4 @@ export default function BuildPage() {
       </div>
     </div>
   );
-}
+                                                                         }
